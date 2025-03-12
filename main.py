@@ -5,7 +5,7 @@ from cogview.CogView4 import CogView4
 # Model path
 MODEL_PATH = "/mnt/models/CogView4-6B"
 # Precision
-TORCH_DTYPE = torch.bfloat16
+TORCH_DTYPE = torch.float32
 # The device allocation scheme
 DEVICE_MAP = {
     "text_encoder": "cuda:0",
