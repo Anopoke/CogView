@@ -56,7 +56,7 @@ class CogView4(CogView4Pipeline):
             f"{self.model_path}/transformer",
             # quantization_config=BitsAndBytesConfig(
             #     bnb_4bit_quant_type="nf4",
-            #     bnb_4bit_compute_dtype=torch_dtype,
+            #     bnb_4bit_compute_dtype=self.torch_dtype,
             #     bnb_4bit_use_double_quant=True
             # ),
             torch_dtype=self.torch_dtype,
